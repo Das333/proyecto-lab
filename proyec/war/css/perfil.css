@@ -1,0 +1,4 @@
+@CHARSET "ISO-8859-1";
+.panel-group .panel {
+    margin-bottom: -5px;
+}

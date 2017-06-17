@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
+	<servlet>
+		<servlet-name>Save</servlet-name>
+		<servlet-class>episunsa.Save</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Save</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>episunsa.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/inicio</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Out</servlet-name>
+		<servlet-class>episunsa.Out</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Out</servlet-name>
+		<url-pattern>/salir</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Perfil</servlet-name>
+		<servlet-class>episunsa.Perfil</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Perfil</servlet-name>
+		<url-pattern>/perfil</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>NuevoUsuario</servlet-name>
+		<servlet-class>episunsa.NuevoUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NuevoUsuario</servlet-name>
+		<url-pattern>/registro.usuario</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>NuevaEspecialidad</servlet-name>
+		<servlet-class>episunsa.NuevaEspecialidad</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NuevaEspecialidad</servlet-name>
+		<url-pattern>/registro.especialidad</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GuardarEspecialidad</servlet-name>
+		<servlet-class>episunsa.GuardarEspecialidad</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GuardarEspecialidad</servlet-name>
+		<url-pattern>/guardar.especialidad</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>VerEspecialidad</servlet-name>
+		<servlet-class>episunsa.VerEspecialidad</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerEspecialidad</servlet-name>
+		<url-pattern>/especialidades</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>VerUsuario</servlet-name>
+		<servlet-class>episunsa.VerUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerUsuario</servlet-name>
+		<url-pattern>/usuarios</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>EditUsuario</servlet-name>
+		<servlet-class>episunsa.EditUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditUsuario</servlet-name>
+		<url-pattern>/editar</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>inicio</welcome-file>
+	</welcome-file-list>
+</web-app>
+ 

@@ -1,0 +1,189 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+    font-family: "OpenSans-CondBold";
+    src: url(../fonts/OpenSans-CondBold.ttf) format("truetype");
+}
+
+
+
+body{
+	background-color: #EEEEEE;
+}
+header{
+	background: #3C9CD7;
+	color:white;
+}
+article, notice{
+	background: white;
+}
+
+
+body{
+	padding-top: 50px;
+}
+
+aside{
+	background: orange;
+	color:white;
+}
+
+footer{
+	background: black;
+	color:white;
+}
+
+p{
+	line-height: 24px;
+}
+
+.titulo-p{
+	font-family: 'OpenSans-CondBold';
+	
+}
+
+.bienvenido{
+	
+	font-size: 16px;
+}
+
+
+h3{
+	font-size: 20px;
+    font-family: 'OpenSans-CondBold';
+    line-height: 24px;
+    
+}
+.articulo-g{
+	margin: 0px;
+}
+
+
+.fondo1{
+	background: #3C9CD7;
+}
+.color1{
+	color: #3C9CD7;
+}
+
+.articulo-t{
+	background: #EEEEEE;
+}
+
+#botones-inicio a:hover {
+    opacity: 0.8 ;
+	background-position: center;
+	
+   
+}
+.section-p{
+	background: white;
+	
+}
+.botones{
+	background-position: center;
+    width: 235px;
+    height: 250px;
+    display: block;
+    -webkit-transition: all 300ms ease;
+       -moz-transition: all 300ms ease;
+         -o-transition: all 300ms ease;
+            transition: all 300ms ease;
+    height: 28px;
+    padding-top: 125px;
+}
+
+#boton-1{
+	background-image: url(../img/horario-1.jpg);
+}
+
+#boton-2{
+	background-image: url(../img/medico-2.jpg);
+}
+#boton-3{
+	background-image: url(../img/cita.jpg);
+}
+#boton-4{
+	background-image: url(../img/especialidades-1.jpg);
+}
+
+.textoborde {
+	
+  
+ font-family: 'OpenSans-CondBold';
+ text-shadow: black 0.1em 0.1em 0.2em;
+     
+}
+
+.navbar-custom {
+	background-color:#3C9CD7;
+    color:#ffffff;
+  	border-radius:0;
+}
+  
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+  	padding-left:20px;
+  	padding-right:20px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	background-color:#2a90cf;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #2a90cf;
+}
+      
+.navbar-custom .navbar-brand {
+  	color:white;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#2a90cf;
+}
+.navbar-custom .icon-bar {
+  	background-color:#2a90cf;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #2A90CF;
+ 
+}
+
+.reducir-m{
+	padding: 0px;
+}
+
+.logo{
+	width:332px;
+	height:30px;
+	background: red;
+}
+.popover{
+	max-width: 100%;
+}
+
+.popover-login, .popover-content{
+   
+    width:240px;
+   
+    padding: 15px 20px;
+}
+
+.popover-markup > a{
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+        padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+}
+.popover-markup > a:hover ,.popover-markup > a:focus{
+	   color: #ffffff;
+	background-color:#2a90cf;
+}

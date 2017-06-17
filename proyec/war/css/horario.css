@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+.popover-content{
+	font-size: 13px;
+	text-align:center;
+	max-width: 150px;
+	
+}
+
+.popover-content>p {
+	line-height: 16px;
+	color: #3C9CD7;
+}
+
+div.horario-btn .btn{
+	color: #3C9CD7;
+}
+
+.horario-head .btn{
+	font-weight: bold;
+	color: #3C9CD7;
+}
+
+
+.btn-default:hover{
+	color: #3C9CD7;
+}
